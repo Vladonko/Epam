@@ -15,6 +15,6 @@ public class Exercise5 {
         int d = figure/100%10;
         int e = figure/10%10;
         int f = figure%10;
-        return Math.pow(a+b+c+d+e+f,1.0/6);
+        return Math.pow(a*b*c*d*e*f,1.0/6);
     }
 }
