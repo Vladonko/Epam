@@ -7,6 +7,7 @@ public class Tasktwo {
         int a=2, b=9, c=5;
         boolean result = Exercise1.Comparison(a,b,c);
         System.out.printf("Is numbers %d %d %d are equal: %b\n",a,b,c,result);
+
         //Second Exercise
         System.out.println("Exercise 2");
         double kg=8004.56;
@@ -27,11 +28,11 @@ public class Tasktwo {
         //Fourth Exercise
         System.out.println("Exercise 4");
         int number = 5689;
-        boolean is = Exercise4.IncreasingFigure(number);
-        System.out.printf("Digits of number %d form an increasing progression --> %b\n", number, is);
+        boolean Is = Exercise4.IncreasingFigure(number);
+        System.out.printf("Digits of number %d form an increasing progression --> %b\n", number, Is);
         number = 6666;
-        is = Exercise4.IncreasingFigure(number);
-        System.out.printf("Digits of number %d form an increasing progression --> %b\n", number, is);
+        Is = Exercise4.IncreasingFigure(number);
+        System.out.printf("Digits of number %d form an increasing progression --> %b\n", number, Is);
 
         //Fifth Exercise
         System.out.println("Exercise 5");
